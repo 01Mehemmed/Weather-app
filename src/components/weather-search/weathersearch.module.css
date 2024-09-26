@@ -1,0 +1,37 @@
+form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search {
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #605d5d;
+    box-shadow: #404040 0px 1px 4px;
+    font-size: 20px;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.btn {
+    padding: 10px 12px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid #605d5d;
+    box-shadow: #404040 0px 1px 4px;
+}
+
+.btn svg {
+    font-size: 18px;
+}
+
+.error {
+    font-size: 25px;
+    font-weight: 600;
+}
